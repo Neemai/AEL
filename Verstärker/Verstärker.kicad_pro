@@ -60,52 +60,52 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|102500000|107000000|b1ba3b28-3edf-4dc6-a59b-1e8b3ac75ac9|00000000-0000-0000-0000-000000000000",
-          "Silc musste wegen DRC Error verändert werden."
+          "lib_footprint_mismatch|102000000|65000000|a4462478-a48c-4cff-a89b-4564f3ab0f6d|00000000-0000-0000-0000-000000000000",
+          "Musste wegen JLC Vorgaben geändert werden."
         ],
         [
-          "lib_footprint_mismatch|120500000|107000000|df2cb9b2-5780-4d4f-aaa9-f0b7724d12e3|00000000-0000-0000-0000-000000000000",
-          "Silc musste wegen DRC Error verändert werden."
+          "lib_footprint_mismatch|117000000|106000000|779a1734-70ef-4659-b7fe-011fb66aacc0|00000000-0000-0000-0000-000000000000",
+          "Musste wegen JLC Vorgaben geändert werden."
         ],
         [
-          "lib_footprint_mismatch|124500000|66000000|a4462478-a48c-4cff-a89b-4564f3ab0f6d|00000000-0000-0000-0000-000000000000",
-          "Silc musste wegen DRC Error verändert werden."
+          "lib_footprint_mismatch|72450000|107000000|162da767-6fd9-44f3-95bf-594c85468729|00000000-0000-0000-0000-000000000000",
+          "Musste wegen JLC Vorgaben geändert werden."
         ],
         [
-          "lib_footprint_mismatch|126000000|79500000|62ab1cde-c26e-4022-b1df-90510573f051|00000000-0000-0000-0000-000000000000",
-          "Silc musste wegen DRC Error verändert werden."
+          "lib_footprint_mismatch|72950000|70500000|2dc8f803-c9b1-41af-873e-b77c19b58f19|00000000-0000-0000-0000-000000000000",
+          "Musste wegen JLC Vorgaben geändert werden."
         ],
         [
-          "lib_footprint_mismatch|128600000|94550000|779a1734-70ef-4659-b7fe-011fb66aacc0|00000000-0000-0000-0000-000000000000",
-          "Silc musste wegen DRC Error verändert werden."
+          "lib_footprint_mismatch|76950000|70500000|75280427-3e0a-4c95-9902-e95594c15e5c|00000000-0000-0000-0000-000000000000",
+          "Musste wegen JLC Vorgaben geändert werden."
         ],
         [
-          "lib_footprint_mismatch|131500000|66000000|f082b1ad-0dff-4cb5-a8f6-33a57b5db12f|00000000-0000-0000-0000-000000000000",
-          "Silc musste wegen DRC Error verändert werden."
+          "lib_footprint_mismatch|77450000|107000000|1925a8d4-c835-4e1d-b340-caf06777b6e7|00000000-0000-0000-0000-000000000000",
+          "Musste wegen JLC Vorgaben geändert werden."
         ],
         [
-          "lib_footprint_mismatch|75500000|70500000|2dc8f803-c9b1-41af-873e-b77c19b58f19|00000000-0000-0000-0000-000000000000",
-          "Silc musste wegen DRC Error verändert werden."
+          "lib_footprint_mismatch|81450000|70500000|a1e9326c-e9ab-4873-b56a-dafecf481222|00000000-0000-0000-0000-000000000000",
+          "Musste wegen JLC Vorgaben geändert werden."
         ],
         [
-          "lib_footprint_mismatch|83500000|70500000|75280427-3e0a-4c95-9902-e95594c15e5c|00000000-0000-0000-0000-000000000000",
-          "Silc musste wegen DRC Error verändert werden."
+          "lib_footprint_mismatch|85450000|107000000|b1ba3b28-3edf-4dc6-a59b-1e8b3ac75ac9|00000000-0000-0000-0000-000000000000",
+          "Musste wegen JLC Vorgaben geändert werden."
         ],
         [
-          "lib_footprint_mismatch|87000000|107000000|162da767-6fd9-44f3-95bf-594c85468729|00000000-0000-0000-0000-000000000000",
-          "Silc musste wegen DRC Error verändert werden."
+          "lib_footprint_mismatch|86624489|70626631|a761c997-86ab-4e7e-b931-dc4ce9f0e0a5|00000000-0000-0000-0000-000000000000",
+          "Musste wegen JLC Vorgaben geändert werden."
         ],
         [
-          "lib_footprint_mismatch|91500000|70500000|a1e9326c-e9ab-4873-b56a-dafecf481222|00000000-0000-0000-0000-000000000000",
-          "Silc musste wegen DRC Error verändert werden."
+          "lib_footprint_mismatch|87500000|94000000|df2cb9b2-5780-4d4f-aaa9-f0b7724d12e3|00000000-0000-0000-0000-000000000000",
+          "Musste wegen JLC Vorgaben geändert werden."
         ],
         [
-          "lib_footprint_mismatch|94000000|107000000|1925a8d4-c835-4e1d-b340-caf06777b6e7|00000000-0000-0000-0000-000000000000",
-          "Silc musste wegen DRC Error verändert werden."
+          "lib_footprint_mismatch|92500000|82000000|f082b1ad-0dff-4cb5-a8f6-33a57b5db12f|00000000-0000-0000-0000-000000000000",
+          "Musste wegen JLC Vorgaben geändert werden."
         ],
         [
-          "lib_footprint_mismatch|98925000|79500000|a761c997-86ab-4e7e-b931-dc4ce9f0e0a5|00000000-0000-0000-0000-000000000000",
-          "Silc musste wegen DRC Error verändert werden."
+          "lib_footprint_mismatch|94000000|65000000|62ab1cde-c26e-4022-b1df-90510573f051|00000000-0000-0000-0000-000000000000",
+          "Musste wegen JLC Vorgaben geändert werden."
         ]
       ],
       "meta": {

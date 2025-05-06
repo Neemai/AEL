@@ -3879,7 +3879,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "044b97b8-d4b6-411e-9dbb-f075392b6863")
-		(property "Reference" "GND3"
+		(property "Reference" "GND"
 			(at 255.27 101.5999 0)
 			(effects
 				(font
@@ -3930,7 +3930,7 @@
 		(instances
 			(project ""
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "GND3")
+					(reference "GND")
 					(unit 1)
 				)
 			)
@@ -5047,7 +5047,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5c6d8523-7e04-438c-b167-3ad9b455b8ac")
-		(property "Reference" "OUT1"
+		(property "Reference" "OUT"
 			(at 260.35 68.5799 0)
 			(effects
 				(font
@@ -5098,7 +5098,7 @@
 		(instances
 			(project ""
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "OUT1")
+					(reference "OUT")
 					(unit 1)
 				)
 			)
@@ -5339,7 +5339,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "64a5e5e7-d0d8-4339-a157-bc515cd08d50")
-		(property "Reference" "OUT_AMP_B1"
+		(property "Reference" "OUT_AMP_B"
 			(at 243.84 83.8199 0)
 			(effects
 				(font
@@ -5390,7 +5390,7 @@
 		(instances
 			(project ""
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "OUT_AMP_B1")
+					(reference "OUT_AMP_B")
 					(unit 1)
 				)
 			)
@@ -6244,7 +6244,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a9b0f311-53f2-49a2-b013-2c5bf717be0b")
-		(property "Reference" "VCC-1"
+		(property "Reference" "VCC-"
 			(at 243.84 110.4899 0)
 			(effects
 				(font
@@ -6295,7 +6295,7 @@
 		(instances
 			(project ""
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "VCC-1")
+					(reference "VCC-")
 					(unit 1)
 				)
 			)
@@ -6445,7 +6445,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b0545255-b0cb-4f50-af8c-5a7cc37cc8b1")
-		(property "Reference" "VCC+1"
+		(property "Reference" "VCC+"
 			(at 255.27 38.0999 0)
 			(effects
 				(font
@@ -6496,7 +6496,7 @@
 		(instances
 			(project ""
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "VCC+1")
+					(reference "VCC+")
 					(unit 1)
 				)
 			)
@@ -6885,7 +6885,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c99c14ef-17ce-4e29-8113-104ce11629eb")
-		(property "Reference" "VCC_GND1"
+		(property "Reference" "VCC_GND"
 			(at 236.22 130.8099 0)
 			(effects
 				(font
@@ -6936,7 +6936,7 @@
 		(instances
 			(project ""
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "VCC_GND1")
+					(reference "VCC_GND")
 					(unit 1)
 				)
 			)
