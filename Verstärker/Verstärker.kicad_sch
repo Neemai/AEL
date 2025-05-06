@@ -2001,6 +2001,12 @@
 		(uuid "07ed6c14-f4bd-44be-8871-9e53d8bb88f8")
 	)
 	(junction
+		(at 25.4 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c0def20-7ba1-4f3e-b060-338c3b17eff9")
+	)
+	(junction
 		(at 76.2 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2175,6 +2181,12 @@
 		(uuid "a83a8c67-c00c-462d-bc3f-af680ddaae26")
 	)
 	(junction
+		(at 46.99 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8418635-1001-40d1-b0d7-9e96ed78418f")
+	)
+	(junction
 		(at 161.29 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2239,6 +2251,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf0724a3-86a2-4a11-b267-bd3395cb2f4e")
+	)
+	(junction
+		(at 35.56 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d01e7c4c-08bf-4e5e-908f-af5cf2632f85")
 	)
 	(junction
 		(at 90.17 45.72)
@@ -2395,6 +2413,16 @@
 			(type default)
 		)
 		(uuid "0ae4bd30-c8bc-40e6-a437-dad095faa024")
+	)
+	(wire
+		(pts
+			(xy 35.56 146.05) (xy 46.99 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c62420e-ce3b-4218-889d-39935e332fc0")
 	)
 	(wire
 		(pts
@@ -2615,6 +2643,16 @@
 			(type default)
 		)
 		(uuid "390607cb-c799-448a-b2ca-53295afd1bdd")
+	)
+	(wire
+		(pts
+			(xy 25.4 146.05) (xy 35.56 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1e1e09-862d-40ae-bf3e-a7a63401ff89")
 	)
 	(wire
 		(pts
@@ -3118,6 +3156,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 146.05) (xy 58.42 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9653ad07-11ce-4db1-8023-588a9cbc7080")
+	)
+	(wire
+		(pts
 			(xy 106.68 92.71) (xy 121.92 92.71)
 		)
 		(stroke
@@ -3358,6 +3406,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 146.05) (xy 25.4 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67a3a50-aaa3-4e4b-83c5-13c0b700d335")
+	)
+	(wire
+		(pts
 			(xy 82.55 92.71) (xy 96.52 92.71)
 		)
 		(stroke
@@ -3515,6 +3573,16 @@
 			(type default)
 		)
 		(uuid "db82e530-cdcb-4cd5-b90a-e1c8c54bff71")
+	)
+	(wire
+		(pts
+			(xy 25.4 105.41) (xy 39.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0ef357-f60a-4bd6-8424-a0dfef8b8ca9")
 	)
 	(wire
 		(pts
@@ -3811,7 +3879,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "044b97b8-d4b6-411e-9dbb-f075392b6863")
-		(property "Reference" "H7"
+		(property "Reference" "GND3"
 			(at 255.27 101.5999 0)
 			(effects
 				(font
@@ -3820,7 +3888,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "H7"
 			(at 255.27 104.1399 0)
 			(effects
 				(font
@@ -3862,7 +3930,7 @@
 		(instances
 			(project ""
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "H7")
+					(reference "GND3")
 					(unit 1)
 				)
 			)
@@ -3956,7 +4024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1818445f-51d5-4f43-87df-6e9936ee1d5a")
-		(property "Reference" "TP6"
+		(property "Reference" "Q3_C1"
 			(at 143.51 19.5579 0)
 			(effects
 				(font
@@ -3965,7 +4033,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TP6"
 			(at 143.51 22.0979 0)
 			(effects
 				(font
@@ -4007,7 +4075,7 @@
 		(instances
 			(project "Verstärker"
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "TP6")
+					(reference "Q3_C1")
 					(unit 1)
 				)
 			)
@@ -4750,7 +4818,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5523e149-d74d-4577-b180-e76890f57e73")
-		(property "Reference" "H9"
+		(property "Reference" "IN_AMP_B1"
 			(at 50.8 124.4599 0)
 			(effects
 				(font
@@ -4759,7 +4827,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "IN AMP B"
+		(property "Value" "H9"
 			(at 50.8 126.9999 0)
 			(effects
 				(font
@@ -4801,7 +4869,7 @@
 		(instances
 			(project ""
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "H9")
+					(reference "IN_AMP_B1")
 					(unit 1)
 				)
 			)
@@ -4904,6 +4972,73 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
+		(at 35.56 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "5b9b0bb1-0cd6-4479-88d3-864773d6fb53")
+		(property "Reference" "GND5"
+			(at 38.1 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "H5"
+			(at 38.1 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+			(at 35.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 35.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "137a7b1f-7696-4aa5-a52b-38102d18f46a")
+		)
+		(instances
+			(project "Verstärker"
+				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
+					(reference "GND5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 257.81 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4912,7 +5047,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5c6d8523-7e04-438c-b167-3ad9b455b8ac")
-		(property "Reference" "H8"
+		(property "Reference" "OUT1"
 			(at 260.35 68.5799 0)
 			(effects
 				(font
@@ -4921,7 +5056,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OUT"
+		(property "Value" "H8"
 			(at 260.35 71.1199 0)
 			(effects
 				(font
@@ -4963,7 +5098,7 @@
 		(instances
 			(project ""
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "H8")
+					(reference "OUT1")
 					(unit 1)
 				)
 			)
@@ -5137,7 +5272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64895a15-e9d2-4b30-a0e5-aa18b72b82c3")
-		(property "Reference" "TP11"
+		(property "Reference" "Q13&Q12_C1"
 			(at 95.25 150.6219 0)
 			(effects
 				(font
@@ -5146,7 +5281,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TP11"
 			(at 95.25 153.1619 0)
 			(effects
 				(font
@@ -5188,7 +5323,7 @@
 		(instances
 			(project "Verstärker"
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "TP11")
+					(reference "Q13&Q12_C1")
 					(unit 1)
 				)
 			)
@@ -5204,7 +5339,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "64a5e5e7-d0d8-4339-a157-bc515cd08d50")
-		(property "Reference" "H1"
+		(property "Reference" "OUT_AMP_B1"
 			(at 243.84 83.8199 0)
 			(effects
 				(font
@@ -5213,7 +5348,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OUT AMP B"
+		(property "Value" "H1"
 			(at 243.84 86.3599 0)
 			(effects
 				(font
@@ -5255,7 +5390,7 @@
 		(instances
 			(project ""
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "H1")
+					(reference "OUT_AMP_B1")
 					(unit 1)
 				)
 			)
@@ -6109,7 +6244,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a9b0f311-53f2-49a2-b013-2c5bf717be0b")
-		(property "Reference" "H4"
+		(property "Reference" "VCC-1"
 			(at 243.84 110.4899 0)
 			(effects
 				(font
@@ -6118,7 +6253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VCC -"
+		(property "Value" "H4"
 			(at 243.84 113.0299 0)
 			(effects
 				(font
@@ -6160,7 +6295,7 @@
 		(instances
 			(project ""
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "H4")
+					(reference "VCC-1")
 					(unit 1)
 				)
 			)
@@ -6176,7 +6311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaf62728-8739-4e94-a873-a79b73b04d32")
-		(property "Reference" "TP9"
+		(property "Reference" "Q12&Q13_E1"
 			(at 105.41 19.5579 0)
 			(effects
 				(font
@@ -6185,7 +6320,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TP9"
 			(at 105.41 22.0979 0)
 			(effects
 				(font
@@ -6227,7 +6362,7 @@
 		(instances
 			(project "Verstärker"
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "TP9")
+					(reference "Q12&Q13_E1")
 					(unit 1)
 				)
 			)
@@ -6243,7 +6378,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "abb0900d-b338-42a9-aeec-c07de4abcc28")
-		(property "Reference" "H5"
+		(property "Reference" "GND1"
 			(at 41.91 115.5699 0)
 			(effects
 				(font
@@ -6252,7 +6387,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "H5"
 			(at 41.91 118.1099 0)
 			(effects
 				(font
@@ -6294,7 +6429,7 @@
 		(instances
 			(project ""
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "H5")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -6310,7 +6445,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b0545255-b0cb-4f50-af8c-5a7cc37cc8b1")
-		(property "Reference" "H3"
+		(property "Reference" "VCC+1"
 			(at 255.27 38.0999 0)
 			(effects
 				(font
@@ -6319,7 +6454,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VCC +"
+		(property "Value" "H3"
 			(at 255.27 40.6399 0)
 			(effects
 				(font
@@ -6361,7 +6496,7 @@
 		(instances
 			(project ""
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "H3")
+					(reference "VCC+1")
 					(unit 1)
 				)
 			)
@@ -6549,7 +6684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbf46e76-c803-4490-be77-4c661e31f744")
-		(property "Reference" "TP10"
+		(property "Reference" "Q12_C1"
 			(at 110.49 150.6219 0)
 			(effects
 				(font
@@ -6558,7 +6693,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TP10"
 			(at 110.49 153.1619 0)
 			(effects
 				(font
@@ -6600,7 +6735,7 @@
 		(instances
 			(project "Verstärker"
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "TP10")
+					(reference "Q12_C1")
 					(unit 1)
 				)
 			)
@@ -6616,7 +6751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1ff65a4-3a45-4d3e-82ac-fe46c81389de")
-		(property "Reference" "TP7"
+		(property "Reference" "Q3_E1"
 			(at 142.24 150.6219 0)
 			(effects
 				(font
@@ -6625,7 +6760,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TP7"
 			(at 142.24 153.1619 0)
 			(effects
 				(font
@@ -6667,7 +6802,7 @@
 		(instances
 			(project "Verstärker"
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "TP7")
+					(reference "Q3_E1")
 					(unit 1)
 				)
 			)
@@ -6683,7 +6818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c97473f7-35af-4ffc-8c25-c60b4a723a39")
-		(property "Reference" "TP5"
+		(property "Reference" "Input1"
 			(at 78.74 19.5579 0)
 			(effects
 				(font
@@ -6692,7 +6827,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Input"
+		(property "Value" "TP5"
 			(at 78.74 22.0979 0)
 			(effects
 				(font
@@ -6734,7 +6869,7 @@
 		(instances
 			(project ""
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "TP5")
+					(reference "Input1")
 					(unit 1)
 				)
 			)
@@ -6750,7 +6885,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c99c14ef-17ce-4e29-8113-104ce11629eb")
-		(property "Reference" "H6"
+		(property "Reference" "VCC_GND1"
 			(at 236.22 130.8099 0)
 			(effects
 				(font
@@ -6759,7 +6894,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "VCC GND"
+		(property "Value" "H6"
 			(at 236.22 133.3499 0)
 			(effects
 				(font
@@ -6801,7 +6936,7 @@
 		(instances
 			(project ""
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "H6")
+					(reference "VCC_GND1")
 					(unit 1)
 				)
 			)
@@ -7053,7 +7188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfec0a31-c1b6-4bfd-9649-e46bb58741ec")
-		(property "Reference" "TP12"
+		(property "Reference" "GND2"
 			(at 78.74 150.6219 0)
 			(effects
 				(font
@@ -7062,7 +7197,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "TP12"
 			(at 78.74 153.1619 0)
 			(effects
 				(font
@@ -7104,7 +7239,7 @@
 		(instances
 			(project "Verstärker"
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "TP12")
+					(reference "GND2")
 					(unit 1)
 				)
 			)
@@ -7436,6 +7571,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 25.4 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "dddb1a77-d347-4681-97be-2782176378da")
+		(property "Reference" "GND4"
+			(at 27.94 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "H5"
+			(at 27.94 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+			(at 25.4 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 25.4 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bdbad62-13e2-4e0a-9e67-5d99ac53cf4c")
+		)
+		(instances
+			(project "Verstärker"
+				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
+					(reference "GND4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 151.13 49.53 0)
 		(unit 1)
@@ -7524,7 +7726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e48cdaba-f848-409d-86ae-23490178e5e8")
-		(property "Reference" "TP3"
+		(property "Reference" "Q2_E1"
 			(at 185.42 150.6219 0)
 			(effects
 				(font
@@ -7533,7 +7735,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Q2"
+		(property "Value" "TP3"
 			(at 185.42 153.1619 0)
 			(effects
 				(font
@@ -7575,7 +7777,7 @@
 		(instances
 			(project "Verstärker"
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "TP3")
+					(reference "Q2_E1")
 					(unit 1)
 				)
 			)
@@ -7591,7 +7793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6b01b5a-d78b-4b6d-a4c7-53e15735c961")
-		(property "Reference" "TP1"
+		(property "Reference" "Output1"
 			(at 208.28 150.6219 0)
 			(effects
 				(font
@@ -7600,7 +7802,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Output"
+		(property "Value" "TP1"
 			(at 208.28 153.1619 0)
 			(effects
 				(font
@@ -7642,7 +7844,7 @@
 		(instances
 			(project "Verstärker"
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "TP1")
+					(reference "Output1")
 					(unit 1)
 				)
 			)
@@ -7658,7 +7860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaf27fb8-619b-4146-8d8d-5fff0db39b78")
-		(property "Reference" "TP8"
+		(property "Reference" "Q13_E1"
 			(at 92.71 19.5579 0)
 			(effects
 				(font
@@ -7667,7 +7869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TP8"
 			(at 92.71 22.0979 0)
 			(effects
 				(font
@@ -7709,7 +7911,7 @@
 		(instances
 			(project "Verstärker"
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "TP8")
+					(reference "Q13_E1")
 					(unit 1)
 				)
 			)
@@ -7871,6 +8073,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 46.99 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ef636fac-2d8f-4af5-b721-c6c97cc3c387")
+		(property "Reference" "GND6"
+			(at 49.53 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "H5"
+			(at 49.53 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+			(at 46.99 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 46.99 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "708880ce-598e-47f1-98e7-af4ffeeb5ae5")
+		)
+		(instances
+			(project "Verstärker"
+				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
+					(reference "GND6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 124.46 24.13 0)
 		(unit 1)
@@ -7880,7 +8149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2c881ba-7a71-45e7-8003-0849781c8cf1")
-		(property "Reference" "TP4"
+		(property "Reference" "Q12_B1"
 			(at 127 19.5579 0)
 			(effects
 				(font
@@ -7889,7 +8158,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TP4"
 			(at 127 22.0979 0)
 			(effects
 				(font
@@ -7931,7 +8200,7 @@
 		(instances
 			(project "Verstärker"
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "TP4")
+					(reference "Q12_B1")
 					(unit 1)
 				)
 			)
@@ -8026,7 +8295,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f80d65f3-ccac-4d11-a48e-217d2ddf2beb")
-		(property "Reference" "H2"
+		(property "Reference" "IN1"
 			(at 45.72 71.1199 0)
 			(effects
 				(font
@@ -8035,7 +8304,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IN"
+		(property "Value" "H2"
 			(at 45.72 73.6599 0)
 			(effects
 				(font
@@ -8077,7 +8346,7 @@
 		(instances
 			(project ""
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "H2")
+					(reference "IN1")
 					(unit 1)
 				)
 			)
@@ -8168,6 +8437,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 58.42 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f9d769ed-bfc7-44a9-9597-7432b0f4dd00")
+		(property "Reference" "GND7"
+			(at 60.96 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "H5"
+			(at 60.96 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+			(at 58.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 58.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ee1a726-710d-4095-baa1-e661b570586f")
+		)
+		(instances
+			(project "Verstärker"
+				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
+					(reference "GND7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 180.34 24.13 0)
 		(unit 1)
@@ -8177,7 +8513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe2ef4df-570c-4966-b31a-6156587cd2de")
-		(property "Reference" "TP2"
+		(property "Reference" "Q1_E1"
 			(at 182.88 19.5579 0)
 			(effects
 				(font
@@ -8186,7 +8522,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q1"
+		(property "Value" "TP2"
 			(at 182.88 22.0979 0)
 			(effects
 				(font
@@ -8228,7 +8564,7 @@
 		(instances
 			(project "Verstärker"
 				(path "/e102fd65-1476-4a8b-9749-6e526a3708eb"
-					(reference "TP2")
+					(reference "Q1_E1")
 					(unit 1)
 				)
 			)
