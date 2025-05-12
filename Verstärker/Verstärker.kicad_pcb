@@ -5499,7 +5499,7 @@
 		(path "/e48cdaba-f848-409d-86ae-23490178e5e8")
 		(sheetname "/")
 		(sheetfile "Verstärker.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.5 0)
